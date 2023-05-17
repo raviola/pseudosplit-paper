@@ -22,7 +22,7 @@ from solver import Solver
 # Model parameters (fCGLE5)
 D = 1.0
 alpha = 2.0
-beta = 2bet.0
+beta = 2.0
 gamma = -1.0
 lamb = (1 + 4 * beta**2)**0.5
 delta = 0.0
