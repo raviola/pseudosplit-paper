@@ -108,10 +108,10 @@ with open("output/NLSE3/fourier/soliton-fourier_2048_r_50_c_0.5-" +
     fout.write(header_str)
     # fout.write("# Initial time: " + time_stamp_str + "\n")
     fout.write(column_names)
-    
+
     # Create instance of fNLSE3 model
     model = NLSE3Model1D(D=D, gamma=gamma)
-    
+
     for dim in dimensions:
         for r in radius:
             # Get the pseudospectral representation of soliton
@@ -126,7 +126,7 @@ with open("output/NLSE3/fourier/soliton-fourier_2048_r_50_c_0.5-" +
             hamiltonian = model.get_hamiltonian(f0)
             H0 = hamiltonian(u0)
             
-            print(H0)
+            # print(H0)
             
             for dt in dt_list:
                 for Scheme in scheme_list:

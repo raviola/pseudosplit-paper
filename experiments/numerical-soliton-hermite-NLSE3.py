@@ -122,7 +122,7 @@ with open("output/NLSE3/hermite/soliton-hermite_300_s_1.25_c_0.5_dt_0.025-"
             # Initial value of Hamiltonian (energy)
             hamiltonian = model.get_hamiltonian(b0)
             H0 = hamiltonian(u0)
-            print(H0)
+            # print(H0)
 
             for dt in dt_list:
                 for Scheme in schemes:
