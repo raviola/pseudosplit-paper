@@ -6,4 +6,4 @@ Dependencies:
 - NumPy 1.22.4
 - SciPy 1.7.3
 - Matplotlib 3.7.2
-- Jupyter 4.0.5
+- Jupyter Lab 4.0.5
